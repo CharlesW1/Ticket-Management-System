@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Ticket-Management-System",
-    "slug": "Ticket-Management-System",
+    "slug": "ticket-management-system",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.DETECT_SCREEN_CAPTURE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "81f71dd6-329c-4f7a-b1eb-cac88fc6e9a6"
+      }
+    },
+    "owner": "charkes",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/81f71dd6-329c-4f7a-b1eb-cac88fc6e9a6"
     }
   }
 }
